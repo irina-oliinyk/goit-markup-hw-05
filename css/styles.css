@@ -950,11 +950,16 @@ color: #8e8f99;;
 }
 
 
-.visually-hidden:checked + .span-text{
-    background-color: #404bbf;
+.input-checkbox:checked + .label-visualy > .span-text{
+background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
 }
+
+
+/* .visually-hidden:checked + .span-text{
+   
+} */
 
 .visually-hidden{
 
@@ -962,7 +967,7 @@ color: #8e8f99;;
 
 .a-label{
     color: #4d5ae5;
-    
+
 }
 
 .label-visualy{
