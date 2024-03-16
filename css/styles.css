@@ -661,6 +661,7 @@ background-color: #4d5ae5;
             letter-spacing: 0.04em;
            margin-top: 16px;
         background: var(--navy-blue);
+        padding-left: 16px;
 }
 
 .input-footer::placeholder{
@@ -673,19 +674,19 @@ background-color: #4d5ae5;
 }
 
 
-.button-conten{
+/* .button-conten{
     display: flex;
     text-align: center;
     align-content: center;
     
   
 
-}
+} */
 
 .button-footer{
     border-radius: 4px;
         padding: 8px 24px;
-        width: 165px;
+        font-family: "Roboto", sans-serif;
         height: 40px;
         background-color: #4D5AE5;
         font-family: var(--font-family);
@@ -693,8 +694,10 @@ background-color: #4d5ae5;
             font-size: 16px;
             line-height: 150%;
             letter-spacing: 0.04em;
-            
-            
+            min-width: 165px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             color: #ffffff;
             margin-top: 140px;
             transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -706,7 +709,9 @@ background-color: #4d5ae5;
 }
 
 .icon-footer{
+    
     fill: #ffffff;
+    margin-left: 16px;
 }
 
 
