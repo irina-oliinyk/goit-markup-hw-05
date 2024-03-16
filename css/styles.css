@@ -949,8 +949,20 @@ color: #8e8f99;;
     margin-bottom: 24px;
 }
 
+
+.visually-hidden:checked + .span-text{
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
+}
+
 .visually-hidden{
 
+}
+
+.a-label{
+    color: #4d5ae5;
+    
 }
 
 .label-visualy{
