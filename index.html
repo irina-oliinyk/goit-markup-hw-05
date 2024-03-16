@@ -551,36 +551,52 @@
                 <use href="./images/icons.svg#icon-human"></use>
               </svg>
             </div>
-            <label class="form-label">
-              Phone
+          </div>
+          <div class="label-div">
+            <label class="form-label"> Phone</label>
+            <div class="icon-conteiner">
               <input type="tel" name="contact_tel" />
-              <svg class="icon-modal-two" width="13" height="13">
+              <svg class="icon-modal-two" width="18" height="24">
                 <use href="./images/icons.svg#icon-modal-call"></use>
               </svg>
-            </label>
-            <label class="form-label">
-              Email
+            </div>
+          </div>
+          <div class="label-div">
+            <label class="form-label"> Email</label>
+            <div class="icon-conteiner">
               <input type="email" name="email" />
-              <svg class="icon-modal-two" width="15" height="12">
+              <svg class="icon-modal-two" width="18" height="24">
                 <use href="./images/icons.svg#icon-letter"></use>
               </svg>
+            </div>
+          </div>
+          <div class="label-div">
+            <label for="user-comment" class="form-label"> Comment </label>
+            <textarea
+              id="user-comment"
+              class="form-label"
+              name="user-comment"
+              rows="7"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <div class="checkbox-label">
+            <input
+              class="visually-hidden"
+              type="checkbox"
+              value="true"
+              name="user-privacy"
+              id="user-privacy"
+            />
+            <label class="label-visualy" for="user-privacy"
+              >I accept the terms and conditions of the<span class="span-text"
+                ><svg class="icon-modal-four" width="10" height="8">
+                  <use href="./images/icons.svg#icon-click"></use>
+                </svg>
+              </span>
             </label>
-            <label class="form-label">
-              Comment
-              <textarea
-                class="form-label"
-                name="Comment"
-                rows="7"
-                placeholder="Text input"
-              ></textarea>
-            </label>
-            <p class="text-p">
-              <svg class="icon-modal-four" width="15" height="12">
-                <use href="./images/icons.svg#icon-click"></use>
-              </svg>
-              I accept the terms and conditions of the
-              <span class="span-text">Privacy Policy</span>
-            </p>
+            Privacy Policy
+
             <label class="form-label">
               <button class="button-footer-two" type="submit">Send</button>
             </label>
