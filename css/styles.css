@@ -793,10 +793,13 @@ background-color: #4d5ae5;
     cursor: pointer;
 }
 
- button:hover .modal,
- button:focus .modal{
-fill: #ffffff;
- }
+.close:hover > .icon-modal-three,
+.close:focus > .icon-modal-three{
+   
+    fill: #ffffff;
+}
+
+
 
 .close:hover,
 .close:focus {
