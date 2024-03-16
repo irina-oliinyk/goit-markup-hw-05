@@ -885,13 +885,15 @@ border-color: #4D5AE5;
     
 }
 
-input[ class="icon-modal"]:checked{
+/* input[ class="icon-modal"]:checked{
     fill: #4D5AE5;
-}
-
-/* input:focus .icon-modal{
-fill: #4D5AE5;
 } */
+
+
+
+.input-moda:focus .icon-modal{
+fill: #4D5AE5;
+}
 
 /* .icon-modal:focus{
   
