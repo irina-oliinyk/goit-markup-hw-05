@@ -623,24 +623,27 @@ background-color: #4d5ae5;
 
 }
 
-/* .button{
+.button{
     display: flex;
-    
-    justify-content: center;
-    align-items: baseline;
-} */
+    gap: 24px;
+    /* justify-content: center;
+    align-items: baseline; */
+}
+
+.footer-p{
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+
 
  .button-l{
-    font-family: var(--font-family);
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 150%;
-        letter-spacing: 0.02em;
-      margin-bottom: 16px;
-       color: #FFFFFF;
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 16px;
+   
+    
        
 } 
 
