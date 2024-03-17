@@ -1036,8 +1036,8 @@ width: 16px;
                 display: block;
                 min-width: 169px;
                 cursor: pointer;
-                cursor: pointer;
-                margin-top: 0;
+               
+            border: none;
                 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
                
 }
